@@ -11,7 +11,7 @@
 <meta property="og:description" content="Send lenken til annonsen. Du får en 3D-visning av boligen innen 12 timer. Den første 3D-visningen er gratis.">
 <meta property="og:locale" content="nb_NO">
 <meta property="og:image" content="https://lettvisning.no/eksempel-stue.jpg">
-<link rel="preload" href="fonter/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonter/schibsted-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="stil.css">
 </head>
 <body>
@@ -38,66 +38,53 @@
   <p class="epost">Eller send lenken til <a href="mailto:magnus@lettvisning.no?subject=Gratis%203D-visning">magnus@lettvisning.no</a></p>
  </div>
  <figure class="bilde">
-  <a class="eks" href="eksempel/">
+  <div class="tre-d" id="tre-d">
    <img src="eksempel-stue.jpg" width="1200" height="676" alt="Stua i eksempelboligen i 3D: lys stue med sofa, flygel og utsikt over fjorden">
-   <span class="eks-knapp">Gå inn i eksempelboligen</span>
-  </a>
-  <figcaption><p>Ekte skjermbilde fra en 3D-visning. Eksempelboligen er laget for å vise hvordan det ser ut. Ekte visninger deles bare med samtykke fra megler og selger.</p></figcaption>
+   <a class="start-3d" href="eksempel/" data-src="https://magnusram04-prog.github.io/lettvisning/?bolig=eksempel-toppleilighet"><span>Prøv 3D-visningen her</span></a>
+  </div>
+  <figcaption><p>Eksempelboligen er laget for å vise hvordan det ser ut. Dra for å se deg rundt. Ekte visninger deles bare med samtykke fra megler og selger.</p></figcaption>
  </figure>
 </div>
 
 <section>
  <div class="wrap">
-  <h2>Hele boligen, rom for rom</h2>
-  <p class="lede">Kjøperen ser hele boligen ovenfra og går inn i hvert rom. Alle bildene under er fra eksempelboligen.</p>
-  <div class="rom">
-   <figure class="stor"><img src="eks-oversikt.jpg" width="1200" height="860" loading="lazy" alt="Eksempelboligen sett ovenfra i 3D, med alle rommene, møblene og balkongen"><figcaption>Oversikt ovenfra</figcaption></figure>
-   <div class="rom-kol">
-    <figure><img src="eks-kjokken.jpg" width="900" height="507" loading="lazy" alt="Kjøkken og spisestue med grønne skap, kjøkkenøy og utsikt mot sjøen"><figcaption>Kjøkken og spisestue</figcaption></figure>
-    <figure><img src="eks-soverom.jpg" width="900" height="507" loading="lazy" alt="Hovedsoverom med grønn seng, gardiner og vindu"><figcaption>Hovedsoverom</figcaption></figure>
-   </div>
+  <div class="topp-to">
+   <h2>Fra plantegning til en bolig kjøperen kan gå rundt i</h2>
+   <p class="lede">Mange synes plantegningen er vanskelig å lese, og bildene viser ett rom om gangen. I 3D går kjøperen fra rom til rom og ser hvordan boligen henger sammen. Uten app og uten innlogging.</p>
   </div>
-  <ol class="steg">
-   <li><h3>Send lenken</h3><p>Send meg lenken til annonsen, eller plantegningen og bildene. Du trenger ikke gjøre noe mer.</p></li>
-   <li><h3>Jeg bygger boligen</h3><p>Rommene får mål fra plantegningen. Møbler, farger og lamper hentes fra annonsebildene, og lyset beregnes.</p></li>
-   <li><h3>Du får en privat lenke</h3><p>Innen 12 timer. Lenken er bare din til du og selger bestemmer at den kan deles med kjøperne.</p></li>
-  </ol>
+  <div class="fra-til">
+   <figure class="plan"><img src="eks-plan.jpg" width="1000" height="743" loading="lazy" alt="Plantegning av eksempelboligen med rommene og arealene"><figcaption>Plantegningen</figcaption></figure>
+   <figure><img src="eks-oversikt.jpg" width="1200" height="860" loading="lazy" alt="Den samme boligen sett ovenfra i 3D, med møbler, vinduer og balkong"><figcaption>Den samme boligen i 3D</figcaption></figure>
+  </div>
+  <div class="rom-rad">
+   <figure><img src="eks-kjokken.jpg" width="900" height="507" loading="lazy" alt="Kjøkken og spisestue med grønne skap, kjøkkenøy og utsikt mot sjøen"><figcaption>Kjøkken og spisestue</figcaption></figure>
+   <figure><img src="eks-soverom.jpg" width="900" height="507" loading="lazy" alt="Hovedsoverom med grønn seng, gardiner og vindu"><figcaption>Hovedsoverom</figcaption></figure>
+  </div>
  </div>
 </section>
 
 <section>
  <div class="wrap">
-  <h2>Hva kjøperen får</h2>
-  <div class="to">
-   <div>
-    <h3>Med bilder og plantegning</h3>
-    <ul>
-     <li>Bilder av enkeltrom, men vanskelig å se hvordan rommene henger sammen</li>
-     <li>Plantegning som mange synes er vanskelig å lese</li>
-     <li>Spørsmålene kommer først på visningen</li>
-    </ul>
-   </div>
-   <div class="ny">
-    <h3>Med LettVisning i tillegg</h3>
-    <ul>
-     <li>Går fra rom til rom og ser hvordan boligen henger sammen</li>
-     <li>Åpner lenken i nettleseren, uten app og uten innlogging</li>
-     <li>Kommer på visning med et bedre bilde av boligen</li>
-    </ul>
-   </div>
-  </div>
+  <h2>Slik går det til</h2>
+  <ol class="tid">
+   <li><span class="nar">Du, et par minutter</span><div><h3>Send lenken</h3><p>Send meg lenken til annonsen, eller plantegningen og bildene. Du trenger ikke gjøre noe mer.</p></div></li>
+   <li><span class="nar">Jeg</span><div><h3>Bygger boligen</h3><p>Rommene får mål fra plantegningen. Møbler, farger og lamper hentes fra annonsebildene, og lyset beregnes.</p></div></li>
+   <li><span class="nar">Innen 12 timer</span><div><h3>Du får en privat lenke</h3><p>Lenken er bare din til du og selger bestemmer at den kan deles med kjøperne.</p></div></li>
+  </ol>
  </div>
 </section>
 
 <section>
  <div class="wrap sporsmal">
   <h2>Vanlige spørsmål</h2>
+  <div>
   <details><summary>Hva koster det?</summary><p>Den første 3D-visningen er gratis, uten noen binding.</p></details>
   <details><summary>Må noen komme på befaring?</summary><p>Nei. Jeg bruker bare plantegningen og bildene som allerede er i annonsen. <a href="uten-befaring/">Les hvordan det lages uten befaring</a>.</p></details>
   <details><summary>Hvor nøyaktig er den?</summary><p>Rommene følger målene på plantegningen. Møblene er bare de som synes på bildene. Det er en visning for å forstå boligen, ikke en oppmåling.</p></details>
   <details><summary>Hva med samtykke fra selger?</summary><p>Visningen er privat og vises bare til deg. Den deles med kjøperne først når du og selger har sagt ja. Si fra, så tar jeg den ned når som helst.</p></details>
   <details><summary>Hva trenger kjøperne?</summary><p>Bare lenken. Den virker i nettleseren på mobil, nettbrett og PC.</p></details>
   <details><summary>Hvor mye tid tar det for meg?</summary><p>Det tar et par minutter å sende lenken. Resten gjør jeg.</p></details>
+  </div>
  </div>
 </section>
 
@@ -131,5 +118,6 @@
  </div>
 </footer>
 <script src="epost.js" defer></script>
+<script src="tre-d.js" defer></script>
 </body>
 </html>
