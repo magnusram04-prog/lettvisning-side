@@ -136,3 +136,14 @@ footer a{color:var(--dempet)}
 }
 @media (max-width:480px){.knapper .knapp{flex:1 1 100%;text-align:center}.rom-kol{grid-template-columns:1fr}.topp-tel{font-size:14px}}
 @media (prefers-reduced-motion:reduce){.knapp,.eks img,summary::after{transition:none}.eks:hover img,.knapp:hover{transform:none}}
+
+/* valg av e-post (epost.js) */
+.velg-epost{border:0;border-radius:8px;padding:28px 28px 22px;max-width:min(420px,calc(100vw - 32px));width:100%;background:var(--flate);color:var(--tekst);box-shadow:0 30px 60px -20px rgba(0,0,0,.45)}
+.velg-epost::backdrop{background:rgba(15,20,18,.5)}
+.velg-epost h2{font-size:26px;margin:0 0 18px}
+.velg-epost .valg{display:grid;gap:10px}
+.velg-epost .valg .knapp{text-align:center}
+.velg-epost .adresse{font-size:14px;color:var(--dempet);margin:18px 0 0}
+.velg-epost .kopier,.velg-epost .lukk{font:inherit;font-size:14px;background:none;border:0;padding:4px 0;color:var(--aksent);cursor:pointer;text-decoration:underline;text-underline-offset:.18em}
+.velg-epost .lukk{display:block;margin:14px auto 0;color:var(--dempet)}
+.velg-epost button:focus-visible{outline:2px solid var(--varm);outline-offset:3px;border-radius:3px}
