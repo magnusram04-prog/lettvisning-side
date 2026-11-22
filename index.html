@@ -11,14 +11,18 @@
 <meta property="og:description" content="Send lenken til annonsen. Du får en 3D-visning av boligen innen 12 timer. Den første 3D-visningen er gratis.">
 <meta property="og:locale" content="nb_NO">
 <meta property="og:image" content="https://lettvisning.no/eksempel-stue.jpg">
+<link rel="preload" href="fonter/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="stil.css">
 </head>
 <body>
-<header class="wrap">
- <a class="logo" href="./" aria-label="LettVisning, til forsiden">
-  <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 15 16 5l12 10v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z" fill="var(--aksent)"/><path d="M11 28v-8h10v8" fill="var(--bg)"/></svg>
-  LettVisning
- </a>
+<header>
+ <div class="wrap">
+  <a class="logo" href="./" aria-label="LettVisning, til forsiden">
+   <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 15 16 5l12 10v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z" fill="var(--aksent)"/><path d="M11 28v-8h10v8" fill="var(--bg)"/></svg>
+   LettVisning
+  </a>
+  <a class="topp-tel" href="tel:+4798006447">980 06 447</a>
+ </div>
 </header>
 
 <main>
@@ -44,7 +48,15 @@
 
 <section>
  <div class="wrap">
-  <h2>Slik fungerer det</h2>
+  <h2>Hele boligen, rom for rom</h2>
+  <p class="lede">Kjøperen ser hele boligen ovenfra og går inn i hvert rom. Alle bildene under er fra eksempelboligen.</p>
+  <div class="rom">
+   <figure class="stor"><img src="eks-oversikt.jpg" width="1200" height="860" loading="lazy" alt="Eksempelboligen sett ovenfra i 3D, med alle rommene, møblene og balkongen"><figcaption>Oversikt ovenfra</figcaption></figure>
+   <div class="rom-kol">
+    <figure><img src="eks-kjokken.jpg" width="900" height="507" loading="lazy" alt="Kjøkken og spisestue med grønne skap, kjøkkenøy og utsikt mot sjøen"><figcaption>Kjøkken og spisestue</figcaption></figure>
+    <figure><img src="eks-soverom.jpg" width="900" height="507" loading="lazy" alt="Hovedsoverom med grønn seng, gardiner og vindu"><figcaption>Hovedsoverom</figcaption></figure>
+   </div>
+  </div>
   <ol class="steg">
    <li><h3>Send lenken</h3><p>Send meg lenken til annonsen, eller plantegningen og bildene. Du trenger ikke gjøre noe mer.</p></li>
    <li><h3>Jeg bygger boligen</h3><p>Rommene får mål fra plantegningen. Møbler, farger og lamper hentes fra annonsebildene, og lyset beregnes.</p></li>
@@ -57,7 +69,7 @@
  <div class="wrap">
   <h2>Hva kjøperen får</h2>
   <div class="to">
-   <div class="kort">
+   <div>
     <h3>Med bilder og plantegning</h3>
     <ul>
      <li>Bilder av enkeltrom, men vanskelig å se hvordan rommene henger sammen</li>
@@ -65,7 +77,7 @@
      <li>Spørsmålene kommer først på visningen</li>
     </ul>
    </div>
-   <div class="kort ny">
+   <div class="ny">
     <h3>Med LettVisning i tillegg</h3>
     <ul>
      <li>Går fra rom til rom og ser hvordan boligen henger sammen</li>
@@ -78,7 +90,7 @@
 </section>
 
 <section>
- <div class="wrap">
+ <div class="wrap sporsmal">
   <h2>Vanlige spørsmål</h2>
   <details><summary>Hva koster det?</summary><p>Den første 3D-visningen er gratis, uten noen binding.</p></details>
   <details><summary>Må noen komme på befaring?</summary><p>Nei. Jeg bruker bare plantegningen og bildene som allerede er i annonsen. <a href="uten-befaring/">Les hvordan det lages uten befaring</a>.</p></details>
@@ -91,12 +103,10 @@
 
 <section>
  <div class="wrap meg">
-  <div class="initial" aria-hidden="true">M</div>
-  <div>
-   <h2>Hvem står bak</h2>
-   <p>Jeg heter Magnus Ramberg og bygger LettVisning selv. Hittil har jeg laget 20 visninger fra ekte meglerannonser, alle for hånd og rom for rom etter annonsebildene.</p>
-   <p>Nå vil jeg teste det på ekte oppdrag sammen med noen få meglere, og det er derfor den første er gratis.</p>
-  </div>
+  <h2>Hvem står bak</h2>
+  <p>Jeg heter Magnus Ramberg og bygger LettVisning selv. Hittil har jeg laget 20 visninger fra ekte meglerannonser, alle for hånd og rom for rom etter annonsebildene.</p>
+  <p>Nå vil jeg teste det på ekte oppdrag sammen med noen få meglere, og det er derfor den første er gratis.</p>
+  <p class="signatur">Magnus Ramberg</p>
  </div>
 </section>
 
